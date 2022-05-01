@@ -31,3 +31,13 @@ function Person(first, last, age, eye) {
     this.eyeColor = eye;
 }
 const myFather = new Person("John", "French", 46, "hazel");
+
+function nestedfunction() {
+    document.getElementById("Nested_Function").innerHTML = Count();
+    function Count() {
+        var Starting_point = 9;
+        function Plus_one() {Starting_point += 1;}
+        Plus_one();
+        return Starting_point
+    }
+}
