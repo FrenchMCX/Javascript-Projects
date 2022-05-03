@@ -9,7 +9,7 @@ function my_Dictionary() {
         Sound: "Meow"
     };
     //Delete the sound before it's displayed
-    delete Animal.Sound;
+    delete NewPet.Sound;
     //Display the now deleted Sound
     document.getElementById("Dictionary").innerHTML = NewPet.Sound;
 }
